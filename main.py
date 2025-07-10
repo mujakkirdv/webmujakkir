@@ -19,7 +19,7 @@ page = st.sidebar.radio("📂 Navigate", ["Home", "Data Projects", "Resume", "Co
 # --- HOME ---
 if page == "Home":
     st.title("👋 Welcome to Mujakkir Web Portfolio")
-    st.image("assets/profile.jpg", width=300)
+    st.image("profile.jpg", width=300)
     st.markdown("""
 I’m **Mujakkir Ahmad**, a passionate Data Analyst and Accounts Executive with experience in 
 Python, Streamlit, Pandas, and sales dashboards. I love turning raw data into meaningful insights 

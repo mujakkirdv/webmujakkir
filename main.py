@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Mujakkir Ahmad | Portfolio", layout="wide")
 
 # --- Sidebar ---
-st.sidebar.image("assets/profile.jpg", width=150)
+st.sidebar.image("profile.jpg", width=150)
 st.sidebar.title("👨‍💻 Mujakkir Ahmad")
 st.sidebar.markdown("📊 Data Analyst | Accountant")
 st.sidebar.markdown("📍 Dhaka, Bangladesh")
@@ -35,7 +35,7 @@ elif page == "Data Projects":
     st.title("📊 Data Projects")
     
     try:
-        df = pd.read_excel("data/sales.xlsx")
+        df = pd.read_excel("sales.xlsx")
         st.subheader("📁 Sample Sales Data")
         st.dataframe(df.head())
 
@@ -65,7 +65,7 @@ elif page == "Data Projects":
 elif page == "Resume":
     st.title("📄 Mujakkir Ahmad – Resume")
 
-    with open("assets/Mujakkir_Ahmad_CV_2025.pdf", "rb") as f:
+    with open("Mujakkir_Ahmad_CV_2025.pdf", "rb") as f:
         st.download_button("📥 Download My CV", f, file_name="Mujakkir_Ahmad_CV_2025.pdf")
 
 

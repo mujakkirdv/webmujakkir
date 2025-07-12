@@ -35,7 +35,7 @@ load_css()
 
 # --- Sidebar ---
 try:
-    profile_img = Image.open("assets/profile.jpg")
+    profile_img = Image.open("profile.jpg")
     st.sidebar.image(profile_img, width=150)
 except:
     st.sidebar.image("https://via.placeholder.com/150", width=150)
@@ -107,7 +107,7 @@ elif page == "📊 Projects":
     st.markdown("Here are some of my data analysis projects and visualizations:")
     
     try:
-        df = pd.read_excel("data/sales.xlsx")
+        df = pd.read_excel("sales.xlsx")
         
         # Project 1 - Sales Dashboard
         with st.expander("💰 Sales Performance Dashboard", expanded=True):
@@ -161,7 +161,7 @@ elif page == "📄 Resume":
     
     # Download button
     try:
-        with open("assets/Mujakkir_Ahmad_CV_2025.pdf", "rb") as f:
+        with open("Mujakkir_Ahmad_CV_2025.pdf", "rb") as f:
             st.download_button(
                 "📥 Download Full CV", 
                 f, 

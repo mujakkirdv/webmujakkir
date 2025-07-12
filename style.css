@@ -1,0 +1,32 @@
+/* ===== MAIN SIDEBAR STYLES ===== */
+[data-testid="stSidebar"] {
+    background-color: #4a6fa5 !important;  /* Change this color */
+    background-image: none !important;
+}
+
+/* Text colors */
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Links */
+[data-testid="stSidebar"] a {
+    color: #34c916 !important;
+    text-decoration: none !important;
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: rgb(243, 146, 146) !important;
+    text-decoration: underline !important;
+}
+
+/* Radio buttons */
+[data-testid="stSidebar"] .stRadio label {
+    color: rgb(190, 8, 8) !important;
+}
+
+/* Profile image */
+[data-testid="stSidebar"] img {
+    border: 3px solid rgb(12, 12, 12) !important;
+    box-shadow: 0 4px 8px rgba(83, 25, 25, 0.2) !important;
+}

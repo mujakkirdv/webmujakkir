@@ -409,3 +409,16 @@ elif page == "🧑 About Me":
     with g2:
         st.image("screenshot3.png", caption="Commission Report App", use_container_width=True)
         st.image("screenshot4.png", caption="Data Automation Script", use_container_width=True)
+
+
+
+# --- Footer ---
+st.markdown("""<hr style="margin-top:40px; margin-bottom:10px;">""", unsafe_allow_html=True)
+
+st.markdown("""
+    <div style='text-align:center; padding:10px 0; font-size:14px; color:gray;'>
+        © 2025 Mujakkir Ahmad. All rights reserved. |
+        Built with ❤️ using <a href="https://streamlit.io/" target="_blank">Streamlit</a>
+    </div>
+""", unsafe_allow_html=True)
+

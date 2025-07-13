@@ -318,7 +318,7 @@ elif page == "🧑 About Me":
     prof_col1, prof_col2 = st.columns([1, 2], gap="large")
 
     with prof_col1:
-        st.image("assets/profile.jpg", width=250, caption="Mujakkir Ahmad")
+        st.image("profile.jpg", width=250, caption="Mujakkir Ahmad")
 
     with prof_col2:
         st.markdown('<div class="title">👋 Hi, I\'m Mujakkir Ahmad</div>', unsafe_allow_html=True)

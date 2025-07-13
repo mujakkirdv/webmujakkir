@@ -35,7 +35,7 @@ load_css()
 
 # --- Sidebar ---
 try:
-    profile_img = Image.open("profile.jpg")
+    profile_img = Image.open("profile_image.png")
     st.sidebar.image(profile_img, width=150)
 except:
     st.sidebar.image("https://via.placeholder.com/150", width=150)
